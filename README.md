@@ -7,7 +7,7 @@
 
 ### Collection
 
-* Aurum: A data discovery system[Paper](https://ieeexplore.ieee.org/document/8509315) [Code](https://github.com/mitdbg/aurum-datadiscovery)
+* Aurum: A data discovery system [[Paper]](https://ieeexplore.ieee.org/document/8509315) [Code](https://github.com/mitdbg/aurum-datadiscovery)
 * Table union search on open data
 [Paper](https://dl.acm.org/doi/abs/10.14778/3192965.3192973)
 * Dataset discovery in data lakes[Paper](https://arxiv.org/pdf/2011.10427.pdf)
