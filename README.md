@@ -91,7 +91,6 @@
 ## Inference Data Development
 
 ### In-distribution
-
 * Propublica's compas data revisited [[Paper]](https://arxiv.org/abs/1906.04711)
 * Stratal slicing, Part II: Real 3-D seismic data [[Paper]](https://library.seg.org/doi/abs/10.1190/1.1444352)
 * Quantitative program slicing: Separating statements by relevance [[Paper]](https://ieeexplore.ieee.org/document/6606695)
@@ -113,7 +112,6 @@
 
 
 ### Out-of-distribution
-
 * Benchmarking neural network robustness to common corruptions and perturbations [[Paper]](https://arxiv.org/abs/1903.12261) [[Code]](https://github.com/hendrycks/robustness)
 * Evasion attacks against machine learning at test time [[Paper]](https://arxiv.org/pdf/1708.06131v1.pdf) [[Code]](https://github.com/Koukyosyumei/AIJack)
 * Deepfool: a simple and accurate method to fool deep neural networks [[Paper]](https://arxiv.org/pdf/1511.04599v3.pdf) [[Code]](https://github.com/LTS4/DeepFool)
@@ -153,9 +151,6 @@
 * A comparison of radial and linear charts for visualizing daily patterns [[Paper]](https://ieeexplore.ieee.org/abstract/document/8807238)
 * Toward a taxonomy of visuals in science communication [[Paper]](https://www.jstor.org/stable/26464332)
 * The science of visual data communication: What works [[Paper]](https://journals.sagepub.com/doi/full/10.1177/15291006211051956)
-
-
-
 * A survey of clustering algorithms for big data: Taxonomy and empirical analysis [[Paper]](https://ieeexplore.ieee.org/document/6832486)
 * Voyager: Exploratory analysis via faceted browsing of visualization recommendations [[Paper]](https://idl.cs.washington.edu/files/2015-Voyager-InfoVis.pdf)
 * Deepeye: Towards automatic data visualization [[Paper]](https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/icde18-deepeye.pdf) [[Code]](https://github.com/Thanksyy/DeepEye-APIs)
