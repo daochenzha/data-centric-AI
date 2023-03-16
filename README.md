@@ -190,8 +190,6 @@
 * DBridge: A program rewrite tool for set-oriented query execution [[Paper]](https://www.semanticscholar.org/paper/DBridge%3A-A-program-rewrite-tool-for-set-oriented-Chavan-Guravannavar/39b214a86cd6c3fd7fe359ce2127dd17e163452c) 
 * Learning to rewrite queries [[Paper]](http://www.yichang-cs.com/yahoo/CIKM2016_rewrite.pdf) 
 * Dbmind: A self-driving platform in opengauss [[Paper]](http://vldb.org/pvldb/vol14/p2743-zhou.pdf)
-
-
 *  [[Paper]]() [[Code]]()
 *  [[Paper]]() [[Code]]()
 *  [[Paper]]() [[Code]]()
