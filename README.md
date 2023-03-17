@@ -1,11 +1,64 @@
-# data-centric-AI
+# Awesome-Data-Centric-AI
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+A curated, but incomplete, list of data-centric AI resources. It should be noted that our objective is not to encompass every paper, as this would be unfeasible. Instead, we selectively choose papers that present a range of distinct ideas.
+
+If you want to contribute to this list, please feel free to send a pull request. Also you can contact [daochen.zha@rice.edu](mailto:daochen.zha@rice.edu).
+
+*   Perspective paper (SDM 2023): [Data-centric AI: Perspectives and Challenges](https://arxiv.org/abs/2301.04819)
+*   Survey paper: [Data-centric AI: A Survey](https://arxiv.org/abs/2301.04819)
+
+## What is Data-centric AI?
+
+Artificial Intelligence (AI) is making a profound impact in almost every domain. A vital enabler of its great success is the availability of abundant and high-quality data for building machine learning models. Recently, the role of data in AI has been significantly magnified, giving rise to the emerging concept of data-centric AI, which focuses on enhancing the quality and quantity of the data to improve AI systems.
+
+## Data-centric AI vs. Model-centric AI
+
+<img width="800" src="./imgs/data-centric.png" alt="data-centric" />
+
+In the conventional model-centric AI lifecycle, researchers and developers primarily focus on identifying more effective models to improve AI performance while keeping the data largely unchanged. However, this model-centric paradigm overlooks the potential quality issues and undesirable flaws of data, such as missing values, incorrect labels, and anomalies. Complementing the existing efforts in model advancement, data-centric AI emphasizes the systematic engineering of data to build AI systems, shifting our focus from model to data. It is important to notethat "data-centric" differs fundamentally from "data-driven", as the latter only emphasizes the use of data to guide AI development, which typically still centers on developing models rather than engineering data.
+
+
+## Why Data-centric AI?
+<img width="800" src="./imgs/motivation.png" alt="motivation" />
+
+We give two motivating examples to highlight the central role of data in AI. On the left, large and high-quality training data are the driving force of recent successes of GPT models, while model architectures remain similar, except for more model weights. On the right, when the model becomes sufficiently powerful, we only need to engineer prompts (inference data) to accomplish our objectives, with the model being fixed.
+
+## What is the Data-centric AI Framework?
+<img width="800" src="./imgs/framework.png" alt="framework" />
+
+Data-centric AI framework consists of three goals: training data development, inference data development, and data maintenance, where each goal is associated with several sub-goals.
+
+*   The goal of training data development is to collect and produce rich and high-quality training data to support the training of machine learning models.
+*   The objective of inference data development is to create novel evaluation sets that can provide more granular insights into the model or trigger a specific capability of the model with engineered data inputs.
+*   The purpose of data maintenance is to ensure the quality and reliability of data in a dynamic environment.
 
 ## Table of Contents
+* [Training Data Development](#training-data-development)
+  * [Data Collection](#data-collection)
+  * [Data Labeling](#data-labeling)
+  * [Data Preparation](#data-preparation)
+  * [Data Reduction](#data-reduction)
+  * [Data Augmentation](#data-augmentation)
+  * [Data Pipeline](#data-pipeline)
+* [Inference Data Development](#inference-data-development)
+  * [In-distribution Evaluation](#in-distribution-evaluation)
+  * [Out-of-distribution Evaluation](#out-of-distribution-evaluation)
+  * [Prompt Engineering](#prompt-engineering)
+* [Data Maintenance](#data-maintenance)
+  * [Data Understanding](#data-understanding)
+  * [Data Quality Assurance](#data-quality-assurance)
+  * [Data Storage and Retrieval](#data-storage-and-retrieval)
+* [Data Benchmark](#data-benchmark)
+  * [Training Data Development Benchmark](#training-data-development-benchmark)
+  * [Inference Data Development Benchmark](#inference-data-development-benchmark)
+  * [Data Maintenance Benchmark](#data-maintenance-benchmark)
+  * [Unified Benchmark](#unified-benchmark)
 
 
 ## Training Data Development
 
-### Collection
+### Data Collection
 
 * Aurum: A data discovery system [[Paper]](https://ieeexplore.ieee.org/document/8509315) [[Code]](https://github.com/mitdbg/aurum-datadiscovery)
 * Table union search on open data [[Paper]](https://dl.acm.org/doi/abs/10.14778/3192965.3192973)
@@ -16,7 +69,7 @@
 * Data Integration: The Current Status and the Way Forward [[Paper]](https://cs.uwaterloo.ca/~ilyas/papers/StonebrakerIEEE2018.pdf)
 * Revisiting time series outlier detection: Definitions and benchmarks [[Paper]](https://openreview.net/forum?id=r8IvOsnHchr)
 
-### Labeling
+### Data Labeling
 * Annotator rationales for labeling tasks in crowdsourcing [[Paper]](https://www.ischool.utexas.edu/~ml/papers/kutlu_jair20.pdf)
 * Semi-supervised consensus labeling for crowdsourcing [[Paper]](http://www.cs.columbia.edu/~prokofieva/CandidacyPapers/Tang_Crowd.pdf)
 * Vox Populi: Collecting High-Quality Labels from a Crowd [[Paper]](https://www.wisdom.weizmann.ac.il/~shamiro/publications/2009_COLT_DekSham.pdf)
@@ -33,8 +86,9 @@
 * Data programming: Creating large training sets, quickly [[Paper]](https://arxiv.org/abs/1605.07723) 
 * Snorkel: Rapid training data creation with weak supervision [[Paper]](https://arxiv.org/abs/1711.10160) [[Code]](https://github.com/snorkel-team/snorkel)
 * Multi-label dataless text classification with topic modeling [[Paper]](https://arxiv.org/abs/1711.01563)
-* Cut out the annotator, keep the cutout: better segmentation with weak supervision [[Paper]](https://openreview.net/forum?id=bjkX6Kzb5H) 
-### Preparation
+* Cut out the annotator, keep the cutout: better segmentation with weak supervision [[Paper]](https://openreview.net/forum?id=bjkX6Kzb5H)
+ 
+### Data Preparation
 * Distant supervision for relation extraction without labeled data [[Paper]](https://aclanthology.org/P09-1113/) 
 * Missing data imputation: focusing on single imputation [[Paper]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4716933/) 
 * Imputation of Missing Data Using Machine Learning Techniques [[Paper]](https://d1wqtxts1xzle7.cloudfront.net/75598281/KDD96-023-libre.pdf?1638499004=&response-content-disposition=inline%3B+filename%3DImputation_of_Missing_Data_Using_Machine.pdf&Expires=1678667994&Signature=BNTzHGy7~TevRwBAyUu4QCeyNWOC7vH9RcG3bx6zGHjO4mTZa1DAv8GznqsJP25EKorca59PX4R2BYrWiFgTXvtXDwgB7lgvWa0B~W6Z3fjosZLWyMRAjAuhDbFdc-jhI1vlaXHIwzvetDG6ldZZJJCNj6fY0JmkgGcFLP52JR0wy02LjxlPwgAaRyrx1m1-4MvKi-4qS9N~J55ddEchqjcezfREIOA-ab2izlrIH~nzh4UTY7D2uiPmEKQiA85wOfkI0KFjImqGiLiIEo82uA071MjdgkWfPBUrrS60EQT89bDrn-PeCHMXKCE0WnaK0MUm5tOF62h~KLU-D5y5Dg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) 
@@ -49,7 +103,7 @@
 * Introduction to Scikit-learn [[Paper]](https://link.springer.com/chapter/10.1007/978-1-4842-4470-8_18) [[Code]](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
 * Feature engineering for predictive modeling using reinforcement learning [[Paper]](https://arxiv.org/abs/1709.07150)
 
-### Reduction
+### Data Reduction
 * Intrusion detection model using fusion of chi-square feature selection and multi class SVM [[Paper]](https://www.researchgate.net/publication/299567135_Intrusion_Detection_Model_Using_fusion_of_Chi-square_feature_selection_and_multi_class_SVM) 
 * Feature selection based on information gain [[Paper]](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e17df473c25cccd8435839c9b6150ee61bec146a) 
 * Feature selection and analysis on correlated gas sensor data with recursive feature elimination [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0925400515001872) 
@@ -64,7 +118,7 @@
 * MESA: boost ensemble imbalanced learning with meta-sampler [[Paper]](https://arxiv.org/abs/2010.08830) [[Code]](https://github.com/ZhiningLiu1998/mesa)
 * Introduction to k nearest neighbour classification and condensed nearest neighbour data reduction [[Paper]](http://www.math.le.ac.uk/people/ag153/homepage/KNN/OliverKNN_Talk.pdf)
 
-### Augmentation
+### Data Augmentation
 * Character-level convolutional networks for text classification [[Paper]](https://arxiv.org/abs/1509.01626) [[Code]](https://github.com/zhangxiangxiao/Crepe)
 * Mixup: Beyond empirical risk minimization [[Paper]](https://arxiv.org/abs/1710.09412) [[Code]](https://github.com/facebookresearch/mixup-cifar10)
 * Time series data augmentation for deep learning: A survey [[Paper]](https://arxiv.org/abs/2002.12478)
@@ -79,7 +133,7 @@
 * ADASYN: Adaptive synthetic sampling approach for imbalanced learning [[Paper]](https://sci2s.ugr.es/keel/pdf/algorithm/congreso/2008-He-ieee.pdf) [[Code]](https://github.com/stavskal/ADASYN)
 * Towards automated imbalanced learning with deep hierarchical reinforcement learning [[Paper]](https://arxiv.org/abs/2208.12433) [[Code]](https://github.com/daochenzha/autosmote)
 
-### Pipeline
+### Data Pipeline
 * Efficient and robust automated machine learning [[Paper]](https://papers.nips.cc/paper/2015/file/11d0e6287202fced83f79975ec59a3a6-Paper.pdf) [[Code]](https://paperswithcode.com/paper/efficient-and-robust-automated-machine)
 * On evaluation of automl systems [[Paper]](https://www.automl.org/wp-content/uploads/2020/07/AutoML_2020_paper_59.pdf)
 * AlphaD3M: Machine learning pipeline synthesis [[Paper]](https://arxiv.org/abs/2111.02508) [[Code]]()
@@ -90,7 +144,7 @@
 
 ## Inference Data Development
 
-### In-distribution
+### In-distribution Evaluation
 * Propublica's compas data revisited [[Paper]](https://arxiv.org/abs/1906.04711)
 * Stratal slicing, Part II: Real 3-D seismic data [[Paper]](https://library.seg.org/doi/abs/10.1190/1.1444352)
 * Quantitative program slicing: Separating statements by relevance [[Paper]](https://ieeexplore.ieee.org/document/6606695)
@@ -111,7 +165,7 @@
 * An exact counterfactual-example-based approach to tree-ensemble models interpretability [[Paper]](https://arxiv.org/abs/2105.14820) [[Code]](https://paperswithcode.com/paper/an-exact-counterfactual-example-based)
 
 
-### Out-of-distribution
+### Out-of-distribution Evaluation
 * Benchmarking neural network robustness to common corruptions and perturbations [[Paper]](https://arxiv.org/abs/1903.12261) [[Code]](https://github.com/hendrycks/robustness)
 * Evasion attacks against machine learning at test time [[Paper]](https://arxiv.org/pdf/1708.06131v1.pdf) [[Code]](https://github.com/Koukyosyumei/AIJack)
 * Deepfool: a simple and accurate method to fool deep neural networks [[Paper]](https://arxiv.org/pdf/1511.04599v3.pdf) [[Code]](https://github.com/LTS4/DeepFool)
@@ -145,7 +199,7 @@
 
 ## Data Maintenance
 
-### Understanding
+### Data Understanding
 * On the benefits and drawbacks of radial diagrams [[Paper]](https://link.springer.com/chapter/10.1007/978-1-4614-7485-2_17)
 * What makes a visualization memorable? [[Paper]](https://ieeexplore.ieee.org/document/6634103) 
 * A comparison of radial and linear charts for visualizing daily patterns [[Paper]](https://ieeexplore.ieee.org/abstract/document/8807238)
@@ -160,7 +214,7 @@
 * A marketplace for data: An algorithmic solution [[Paper]](https://arxiv.org/abs/1805.08125)
 * Data shapley: Equitable valuation of data for machine learning [[Paper]](https://arxiv.org/abs/1904.02868) [[Code]](https://github.com/amiratag/DataShapley)
 
-### Quality Assurance
+### Data Quality Assurance
 * Data quality: The role of empiricism [[Paper]](https://sigmodrecord.org/publications/sigmodRecord/1712/pdfs/07_forum_Sadiq.pdf)
 * Knowledge graph quality management: a comprehensive survey [[Paper]](https://ieeexplore.ieee.org/document/9709663)
 * Methodologies for data quality assessment and improvement [[Paper]](https://dl.acm.org/doi/10.1145/1541880.1541883)
@@ -175,7 +229,7 @@
 * A crowdsourcing open platform for literature curation in UniProt [[Paper]](https://pubmed.ncbi.nlm.nih.gov/34871295/) [[Code]]()
 * Building data curation processes with crowd intelligence [[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-58135-0_3)
 
-### Storage & Retrieval
+### Data Storage and Retrieval
 * Apache [[Link]](https://storm.apache.org/releases/current/Performance.html)
 * Yarn [[Link]](https://docs.cloudera.com/documentation/enterprise/latest/topics/cdh\_ig\_yarn\_tuning.html)
 * Hadoop: The definitive guide [[Book]](https://www.oreilly.com/library/view/hadoop-the-definitive/9780596521974/)
@@ -191,9 +245,9 @@
 * Learning to rewrite queries [[Paper]](http://www.yichang-cs.com/yahoo/CIKM2016_rewrite.pdf) 
 * Dbmind: A self-driving platform in opengauss [[Paper]](http://vldb.org/pvldb/vol14/p2743-zhou.pdf)
 
-## Benchmarks
+## Data Benchmark
 
-### Training Data Development
+### Training Data Development Benchmark
 * A publicly available benchmark for biomedical dataset retrieval: the reference standard for the 2016 bioCADDIE dataset retrieval challenge [[Paper]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5737202/) [[Data]](https://ngdc.cncb.ac.cn/databasecommons/database/id/3366)
 * TPC-DI: the first industry benchmark for data integration [[Paper]](http://www.vldb.org/pvldb/vol7/p1367-poess.pdf)
 * RODI: A benchmark for automatic mapping generation in relational-to-ontology data integration [[Paper]](https://link.springer.com/chapter/10.1007/978-3-319-18818-8_2) [[Code]](https://github.com/chrpin/rodi)
@@ -216,14 +270,14 @@
 * Benchmark and survey of automated machine learning frameworks [[Paper]](https://arxiv.org/abs/1904.12054) 
 * Amlb: an automl benchmark [[Paper]](https://arxiv.org/abs/2207.12560)
 
-### Evaluation Data Development
+### Evaluation Data Development Benchmark
 * Beyond the imitation game: Quantifying and extrapolating the capabilities of language models [[Paper]](https://arxiv.org/abs/2206.04615) [[Code]](https://github.com/google/BIG-bench)
 * Carla: a python library to benchmark algorithmic recourse and counterfactual explanation algorithms [[Paper]](https://arxiv.org/abs/2108.00783) [[Code]](https://github.com/carla-recourse/CARLA)
 * Benchmarking adversarial robustness on image classification [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Dong_Benchmarking_Adversarial_Robustness_on_Image_Classification_CVPR_2020_paper.pdf)
 * Benchmarking neural network robustness to common corruptions and perturbations [[Paper]](https://arxiv.org/abs/1903.12261) [[Code]](https://github.com/hendrycks/robustness)
 * Searching for a search method: Benchmarking search algorithms for generating nlp adversarial examples [[Paper]](https://arxiv.org/abs/2009.06368) [[Code]](https://github.com/QData/TextAttack)
 
-### Data Maintenance
+### Data Maintenance Benchmarking
 * Chart-to-text: A large-scale benchmark for chart summarization [[Paper]](https://arxiv.org/abs/2203.06486) [[Code]](https://github.com/JasonObeid/Chart2Text)
 * Benchmark development for the evaluation of visualization for data mining [[Paper]](https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6287.pdf)
 * An evaluation-focused framework for visualization recommendation algorithms [[Paper]](https://arxiv.org/abs/2109.02706) [[Code]](https://github.com/Zehua-Zeng/visualization-recommendation-evaluation)
@@ -234,7 +288,4 @@
 
 ### Unified  Benchmark
 * Dataperf: Benchmarks for data-centric ai development [[Paper]](https://arxiv.org/abs/2207.10062) 
-
-
-
 
