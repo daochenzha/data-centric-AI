@@ -33,6 +33,17 @@ Data-centric AI framework consists of three goals: training data development, in
 *   The objective of inference data development is to create novel evaluation sets that can provide more granular insights into the model or trigger a specific capability of the model with engineered data inputs.
 *   The purpose of data maintenance is to ensure the quality and reliability of data in a dynamic environment.
 
+## Cite this Work
+Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
+```bibtex
+@inproceedings{zha2023data-centric-perspectives,
+  title={Data-centric AI: Perspectives and Challenges},
+  author={Zha, Daochen and Bhat, Zaid Pervaiz and Lai, Kwei-Herng and Yang, Fan and Hu, Xia},
+  booktitle={SDM},
+  year={2023}
+}
+```
+
 ## Table of Contents
 * [Training Data Development](#training-data-development)
   * [Data Collection](#data-collection)
