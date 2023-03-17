@@ -14,7 +14,7 @@ Artificial Intelligence (AI) is making a profound impact in almost every domain.
 
 ## Data-centric AI vs. Model-centric AI
 
-<img width="800" src="./imgs/data-centric.png" alt="data-centric" />
+<img width="500" src="./imgs/data-centric.png" alt="data-centric" />
 
 In the conventional model-centric AI lifecycle, researchers and developers primarily focus on identifying more effective models to improve AI performance while keeping the data largely unchanged. However, this model-centric paradigm overlooks the potential quality issues and undesirable flaws of data, such as missing values, incorrect labels, and anomalies. Complementing the existing efforts in model advancement, data-centric AI emphasizes the systematic engineering of data to build AI systems, shifting our focus from model to data. It is important to notethat "data-centric" differs fundamentally from "data-driven", as the latter only emphasizes the use of data to guide AI development, which typically still centers on developing models rather than engineering data.
 
@@ -270,14 +270,14 @@ Data-centric AI framework consists of three goals: training data development, in
 * Benchmark and survey of automated machine learning frameworks [[Paper]](https://arxiv.org/abs/1904.12054) 
 * Amlb: an automl benchmark [[Paper]](https://arxiv.org/abs/2207.12560)
 
-### Evaluation Data Development Benchmark
+### Inference Data Development Benchmark
 * Beyond the imitation game: Quantifying and extrapolating the capabilities of language models [[Paper]](https://arxiv.org/abs/2206.04615) [[Code]](https://github.com/google/BIG-bench)
 * Carla: a python library to benchmark algorithmic recourse and counterfactual explanation algorithms [[Paper]](https://arxiv.org/abs/2108.00783) [[Code]](https://github.com/carla-recourse/CARLA)
 * Benchmarking adversarial robustness on image classification [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Dong_Benchmarking_Adversarial_Robustness_on_Image_Classification_CVPR_2020_paper.pdf)
 * Benchmarking neural network robustness to common corruptions and perturbations [[Paper]](https://arxiv.org/abs/1903.12261) [[Code]](https://github.com/hendrycks/robustness)
 * Searching for a search method: Benchmarking search algorithms for generating nlp adversarial examples [[Paper]](https://arxiv.org/abs/2009.06368) [[Code]](https://github.com/QData/TextAttack)
 
-### Data Maintenance Benchmarking
+### Data Maintenance Benchmark
 * Chart-to-text: A large-scale benchmark for chart summarization [[Paper]](https://arxiv.org/abs/2203.06486) [[Code]](https://github.com/JasonObeid/Chart2Text)
 * Benchmark development for the evaluation of visualization for data mining [[Paper]](https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6287.pdf)
 * An evaluation-focused framework for visualization recommendation algorithms [[Paper]](https://arxiv.org/abs/2109.02706) [[Code]](https://github.com/Zehua-Zeng/visualization-recommendation-evaluation)
@@ -286,6 +286,6 @@ Data-centric AI framework consists of three goals: training data development, in
 * Benchmarking Data Curation Systems [[Paper]](http://sites.computer.org/debull/A16june/p47.pdf) 
 * Facilitating database tuning with hyper-parameter optimization: a comprehensive experimental evaluation [[Paper]](https://arxiv.org/abs/2110.12654) [[Code]](https://github.com/PKU-DAIR/KnobsTuningEA)
 
-### Unified  Benchmark
+### Unified Benchmark
 * Dataperf: Benchmarks for data-centric ai development [[Paper]](https://arxiv.org/abs/2207.10062) 
 
