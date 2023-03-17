@@ -190,21 +190,50 @@
 * DBridge: A program rewrite tool for set-oriented query execution [[Paper]](https://www.semanticscholar.org/paper/DBridge%3A-A-program-rewrite-tool-for-set-oriented-Chavan-Guravannavar/39b214a86cd6c3fd7fe359ce2127dd17e163452c) 
 * Learning to rewrite queries [[Paper]](http://www.yichang-cs.com/yahoo/CIKM2016_rewrite.pdf) 
 * Dbmind: A self-driving platform in opengauss [[Paper]](http://vldb.org/pvldb/vol14/p2743-zhou.pdf)
-*  [[Paper]]() [[Code]]()
-*  [[Paper]]() [[Code]]()
-*  [[Paper]]() [[Code]]()
-*  [[Paper]]() [[Code]]()
-*  [[Paper]]() [[Code]]()
-*  [[Paper]]() [[Code]]()
-*  [[Paper]]() [[Code]]()
-*  [[Paper]]() [[Code]]()
-*  [[Paper]]() [[Code]]()
-*  [[Paper]]() [[Code]]()
-*  [[Paper]]() [[Code]]()
-*  [[Paper]]() [[Code]]()
-*  [[Paper]]() [[Code]]()
-*  [[Paper]]() [[Code]]()
 
+## Benchmarks
+
+### Training Data Development
+* A publicly available benchmark for biomedical dataset retrieval: the reference standard for the 2016 bioCADDIE dataset retrieval challenge [[Paper]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5737202/) [[Data]](https://ngdc.cncb.ac.cn/databasecommons/database/id/3366)
+* TPC-DI: the first industry benchmark for data integration [[Paper]](http://www.vldb.org/pvldb/vol7/p1367-poess.pdf)
+* RODI: A benchmark for automatic mapping generation in relational-to-ontology data integration [[Paper]](https://link.springer.com/chapter/10.1007/978-3-319-18818-8_2) [[Code]](https://github.com/chrpin/rodi)
+* Usb: A unified semi-supervised learning benchmark for classification [[Paper]](https://arxiv.org/abs/2208.07204) [[Code]](https://github.com/microsoft/Semi-supervised-learning)
+* A benchmark and comparison of active learning for logistic regression [[Paper]](https://arxiv.org/abs/1611.08618)
+* A comprehensive benchmark framework for active learning methods in entity matching [[Paper]](https://arxiv.org/abs/2003.13114)
+* REIN: A Comprehensive Benchmark Framework for Data Cleaning Methods in ML Pipelines [[Paper]](https://arxiv.org/abs/2302.04702) [[Code]](https://github.com/mohamedyd/rein-benchmark)
+* Cleanml: A benchmark for joint data cleaning and machine learning [experiments and analysis [[Paper]](https://arxiv.org/abs/1904.09483) [[Code]](https://github.com/chu-data-lab/CleanML)
+* A benchmark for data imputation methods [[Paper]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8297389/) [[Code]](https://github.com/se-jaeger/data-imputation-paper)
+* A feature extraction & selection benchmark for structural health monitoring [[Paper]](https://journals.sagepub.com/doi/full/10.1177/14759217221111141)
+* Blood-based transcriptomic signature panel identification for cancer diagnosis: benchmarking of feature extraction methods [[Paper]](https://pubmed.ncbi.nlm.nih.gov/35945147/) [[Code]](https://github.com/abhivij/bloodbased-pancancer-diagnosis)
+* Toward a quantitative survey of dimension reduction techniques [[Paper]](https://pubmed.ncbi.nlm.nih.gov/31567092/) [[Code]](https://mespadoto.github.io/proj-quant-eval/post/datasets/)
+* Comparison of instance selection algorithms II. Results and comments [[Paper]](https://link.springer.com/chapter/10.1007/978-3-540-24844-6_87) [[Code]]()
+* Comparison of instance selection and construction methods with various classifiers [[Paper]](https://www.mdpi.com/2076-3417/10/11/3933) 
+* An empirical survey of data augmentation for time series classification with neural networks [[Paper]](https://arxiv.org/abs/2007.15951) [[Code]](https://github.com/uchidalab/time_series_augmentation)
+* Comparison of different image data augmentation approaches [[Paper]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8707550/) [[Code]]()
+* Rethinking data augmentation for image super-resolution: A comprehensive analysis and a new strategy [[Paper]](https://arxiv.org/abs/2004.00448) [[Code]](https://github.com/clovaai/cutblur)
+* Data augmentation for deep graph learning: A survey [[Paper]](https://arxiv.org/abs/2202.08235)
+* Benchmarking differentially private synthetic data generation algorithms [[Paper]](https://arxiv.org/abs/2112.09238)
+* Benchmark and survey of automated machine learning frameworks [[Paper]](https://arxiv.org/abs/1904.12054) 
+* Amlb: an automl benchmark [[Paper]](https://arxiv.org/abs/2207.12560)
+
+### Evaluation Data Development
+* Beyond the imitation game: Quantifying and extrapolating the capabilities of language models [[Paper]](https://arxiv.org/abs/2206.04615) [[Code]](https://github.com/google/BIG-bench)
+* Carla: a python library to benchmark algorithmic recourse and counterfactual explanation algorithms [[Paper]](https://arxiv.org/abs/2108.00783) [[Code]](https://github.com/carla-recourse/CARLA)
+* Benchmarking adversarial robustness on image classification [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Dong_Benchmarking_Adversarial_Robustness_on_Image_Classification_CVPR_2020_paper.pdf)
+* Benchmarking neural network robustness to common corruptions and perturbations [[Paper]](https://arxiv.org/abs/1903.12261) [[Code]](https://github.com/hendrycks/robustness)
+* Searching for a search method: Benchmarking search algorithms for generating nlp adversarial examples [[Paper]](https://arxiv.org/abs/2009.06368) [[Code]](https://github.com/QData/TextAttack)
+
+### Data Maintenance
+* Chart-to-text: A large-scale benchmark for chart summarization [[Paper]](https://arxiv.org/abs/2203.06486) [[Code]](https://github.com/JasonObeid/Chart2Text)
+* Benchmark development for the evaluation of visualization for data mining [[Paper]](https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6287.pdf)
+* An evaluation-focused framework for visualization recommendation algorithms [[Paper]](https://arxiv.org/abs/2109.02706) [[Code]](https://github.com/Zehua-Zeng/visualization-recommendation-evaluation)
+* Scalability vs. utility: Do we have to sacrifice one for the other in data importance quantification? [[Paper]](https://arxiv.org/abs/1911.07128) [[Code]](https://github.com/AI-secure/Shapley-Study)
+* Methodologies for data quality assessment and improvement [[Paper]](https://dl.acm.org/doi/10.1145/1541880.1541883)
+* Benchmarking Data Curation Systems [[Paper]](http://sites.computer.org/debull/A16june/p47.pdf) 
+* Facilitating database tuning with hyper-parameter optimization: a comprehensive experimental evaluation [[Paper]](https://arxiv.org/abs/2110.12654) [[Code]](https://github.com/PKU-DAIR/KnobsTuningEA)
+
+### Unified  Benchmark
+* Dataperf: Benchmarks for data-centric ai development [[Paper]](https://arxiv.org/abs/2207.10062) 
 
 
 
