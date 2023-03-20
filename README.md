@@ -77,6 +77,7 @@ Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
 
 
 ## Training Data Development
+<img width="800" src="./imgs/training-data-development.png" alt="training-data-development" />
 
 ### Data Collection
 
@@ -163,6 +164,7 @@ Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
 * Efficient and robust automated machine learning, NeurIPS 2015 [[Paper]](https://papers.nips.cc/paper/2015/file/11d0e6287202fced83f79975ec59a3a6-Paper.pdf) [[Code]](https://paperswithcode.com/paper/efficient-and-robust-automated-machine)
 
 ## Inference Data Development
+<img width="800" src="./imgs/inference-data-development.png" alt="inference-data-development" />
 
 ### In-distribution Evaluation
 * Propublica's compas data revisited [[Paper]](https://arxiv.org/abs/1906.04711)
@@ -218,6 +220,7 @@ Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
 
 
 ## Data Maintenance
+<img width="800" src="./imgs/data-maintenance.png" alt="data-maintenance" />
 
 ### Data Understanding
 * On the benefits and drawbacks of radial diagrams [[Paper]](https://link.springer.com/chapter/10.1007/978-1-4614-7485-2_17)
