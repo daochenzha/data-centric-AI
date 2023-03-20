@@ -1,7 +1,7 @@
 # Awesome-Data-Centric-AI
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated, but incomplete, list of data-centric AI resources. It should be noted that our objective is not to encompass every paper, as this would be unfeasible. Instead, we selectively choose papers that present a range of distinct ideas.
+A curated, but incomplete, list of data-centric AI resources. It should be noted that it is unfeasible to encompass every paper. Thus, we prefer to selectively choose papers that present a range of distinct ideas. We welcome contributions to further enrich and refine this list.
 
 If you want to contribute to this list, please feel free to send a pull request. Also you can contact [daochen.zha@rice.edu](mailto:daochen.zha@rice.edu).
 
