@@ -6,7 +6,7 @@ A curated, but incomplete, list of data-centric AI resources. It should be noted
 If you want to contribute to this list, please feel free to send a pull request. Also you can contact [daochen.zha@rice.edu](mailto:daochen.zha@rice.edu).
 
 *   Perspective paper (SDM 2023): [Data-centric AI: Perspectives and Challenges](https://arxiv.org/abs/2301.04819)
-*   Survey paper: [Data-centric AI: A Survey](https://arxiv.org/abs/2301.04819)
+*   Survey paper: [Data-centric Artificial Intelligence: A Survey](https://arxiv.org/abs/2303.10158)
 
 ## What is Data-centric AI?
 
@@ -43,6 +43,15 @@ Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
   year={2023}
 }
 ```
+Zha, Daochen, et al. "Data-centric Artificial Intelligence: A Survey." arXiv preprint arXiv:2303.10158, 2023.
+```bibtex
+@article{zha2023data-centric-survey,
+  title={Data-centric Artificial Intelligence: A Survey},
+  author={Zha, Daochen and Bhat, Zaid Pervaiz and Lai, Kwei-Herng and Yang, Fan and Jiang, Zhimeng and Zhong, Shaochen and Hu, Xia},
+  journal={arXiv preprint arXiv:2303.10158},
+  year={2013}
+}
+```
 
 ## Table of Contents
 * [Training Data Development](#training-data-development)
@@ -51,7 +60,7 @@ Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
   * [Data Preparation](#data-preparation)
   * [Data Reduction](#data-reduction)
   * [Data Augmentation](#data-augmentation)
-  * [Data Pipeline](#data-pipeline)
+  * [Pipeline Search](#pipeline-search)
 * [Inference Data Development](#inference-data-development)
   * [In-distribution Evaluation](#in-distribution-evaluation)
   * [Out-of-distribution Evaluation](#out-of-distribution-evaluation)
@@ -71,87 +80,87 @@ Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
 
 ### Data Collection
 
-* Aurum: A data discovery system, IEEE 2018 [[Paper]](https://ieeexplore.ieee.org/document/8509315) [[Code]](https://github.com/mitdbg/aurum-datadiscovery)
+* Revisiting time series outlier detection: Definitions and benchmarks, NeurIPS 2021 [[Paper]](https://openreview.net/forum?id=r8IvOsnHchr)
+* Dataset discovery in data lakes, ICDE 2020 [[Paper]](https://arxiv.org/pdf/2011.10427.pdf)
+* Aurum: A data discovery system, ICDE 2018 [[Paper]](https://ieeexplore.ieee.org/document/8509315) [[Code]](https://github.com/mitdbg/aurum-datadiscovery)
 * Table union search on open data, VLDB 2018 [[Paper]](https://dl.acm.org/doi/abs/10.14778/3192965.3192973)
-* Dataset discovery in data lakes, IEEE ICDE 2020 [[Paper]](https://arxiv.org/pdf/2011.10427.pdf)
-* Data integration: A theoretical perspective, PODS 2002 [[Paper]](https://www.cs.ubc.ca/~rap/teaching/534a/readings/Lenzerini-pods02.pdf)
+* Data Integration: The Current Status and the Way Forward, IEEE Computer Society Technical Committee on Data Engineering 2018 [[Paper]](https://cs.uwaterloo.ca/~ilyas/papers/StonebrakerIEEE2018.pdf)
 * To join or not to join? thinking twice about joins before feature selection, SIGMOD 2016 [[Paper]](https://pages.cs.wisc.edu/~arun/hamlet/OptFSSIGMOD.pdf) 
 * Data curation at scale: the data tamer system, CIDR 2013 [[Paper]](https://cs.uwaterloo.ca/~ilyas/papers/StonebrakerCIDR2013.pdf) 
-* Data Integration: The Current Status and the Way Forward, IEEE 2018 [[Paper]](https://cs.uwaterloo.ca/~ilyas/papers/StonebrakerIEEE2018.pdf)
-* Revisiting time series outlier detection: Definitions and benchmarks, NeurIPS 2021 [[Paper]](https://openreview.net/forum?id=r8IvOsnHchr)
+* Data integration: A theoretical perspective, PODS 2002 [[Paper]](https://www.cs.ubc.ca/~rap/teaching/534a/readings/Lenzerini-pods02.pdf)
 
 ### Data Labeling
+* Active Ensemble Learning for Knowledge Graph Error Detection, WSDM 2023 [[Paper]](https://www4.comp.polyu.edu.hk/~xiaohuang/docs/Junnan_WSDM2023.pdf)
+* Training language models to follow instructions with human feedback, NeurIPS 2022 [[Paper]](https://arxiv.org/abs/2203.02155)
+* Interactive Weak Supervision: Learning Useful Heuristics for Data Labeling, ICLR 2021 [[Paper]](https://arxiv.org/abs/2012.06046) [[Code]](https://github.com/benbo/interactive-weak-supervision)
+* A survey of deep active learning, ACM Computing Surveys 2021 [[Paper]](https://arxiv.org/abs/2009.00236)
+* Adaptive rule discovery for labeling text data, SIGMOD 2021 [[Paper]](https://arxiv.org/abs/2005.06133)
+* Cut out the annotator, keep the cutout: better segmentation with weak supervision, ICLR 2021 [[Paper]](https://openreview.net/forum?id=bjkX6Kzb5H)
+* Meta-AAD: Active anomaly detection with deep reinforcement learning, ICDM 2020 [[Paper]](https://arxiv.org/abs/2009.07415) [[Code]](https://github.com/daochenzha/Meta-AAD)
+* Snorkel: Rapid training data creation with weak supervision, VLDB 2020 [[Paper]](https://arxiv.org/abs/1711.10160) [[Code]](https://github.com/snorkel-team/snorkel)
+* Graph-based semi-supervised learning: A review, Neurocomputing 2020 [[Paper]](https://arxiv.org/abs/2102.13303) 
 * Annotator rationales for labeling tasks in crowdsourcing, JAIR 2020 [[Paper]](https://www.ischool.utexas.edu/~ml/papers/kutlu_jair20.pdf)
+* Rethinking pre-training and self-training, NeurIPS 2020 [[Paper]](https://arxiv.org/abs/2006.06882)
+* Multi-label dataless text classification with topic modeling, KIS 2019 [[Paper]](https://arxiv.org/abs/1711.01563)
+* Data programming: Creating large training sets, quickly, NeurIPS 2016 [[Paper]](https://arxiv.org/abs/1605.07723)
 * Semi-supervised consensus labeling for crowdsourcing, SIGIR 2011 [[Paper]](http://www.cs.columbia.edu/~prokofieva/CandidacyPapers/Tang_Crowd.pdf)
 * Vox Populi: Collecting High-Quality Labels from a Crowd, COLT 2009 [[Paper]](https://www.wisdom.weizmann.ac.il/~shamiro/publications/2009_COLT_DekSham.pdf)
-* Rethinking pre-training and self-training, NeurIPS 2020 [[Paper]](https://arxiv.org/abs/2006.06882)
-* Democratic co-learning [[Paper]](https://ieeexplore.ieee.org/document/1374241)
-* Graph-based semi-supervised learning: A review, _Elsevier 2020_ [[Paper]](https://arxiv.org/abs/2102.13303) 
-* Training language models to follow instructions with human feedback, arXiv 2022 [[Paper]](https://arxiv.org/abs/2203.02155)
+* Democratic co-learning, ICTAI 2004 [[Paper]](https://ieeexplore.ieee.org/document/1374241)
 * Active learning with statistical models, JAIR 1996 [[Paper]](https://arxiv.org/abs/cs/9603104)
-* A survey of deep active learning, ACM Computing Surveys 2021 [[Paper]](https://arxiv.org/abs/2009.00236)
-* Active Ensemble Learning for Knowledge Graph Error Detection, WSDM 2023 [[Paper]](https://www4.comp.polyu.edu.hk/~xiaohuang/docs/Junnan_WSDM2023.pdf)
-* Meta-AAD: Active anomaly detection with deep reinforcement learning, IEEE ICDM 2020 [[Paper]](https://arxiv.org/abs/2009.07415) [[Code]](https://github.com/daochenzha/Meta-AAD)
-* Interactive Weak Supervision: Learning Useful Heuristics for Data Labeling, ICLR 2021 [[Paper]](https://arxiv.org/abs/2012.06046) [[Code]](https://github.com/benbo/interactive-weak-supervision)
-* Adaptive rule discovery for labeling text data, _SIGMOD 2021_ [[Paper]](https://arxiv.org/abs/2005.06133)
-* Data programming: Creating large training sets, quickly, NeurIPS 2016 [[Paper]](https://arxiv.org/abs/1605.07723) 
-* Snorkel: Rapid training data creation with weak supervision, VLDB 2020 [[Paper]](https://arxiv.org/abs/1711.10160) [[Code]](https://github.com/snorkel-team/snorkel)
-* Multi-label dataless text classification with topic modeling, KIS 2019 [[Paper]](https://arxiv.org/abs/1711.01563)
-* Cut out the annotator, keep the cutout: better segmentation with weak supervision, ICLR 2021 [[Paper]](https://openreview.net/forum?id=bjkX6Kzb5H)
  
 ### Data Preparation
-* Distant supervision for relation extraction without labeled data, ACL 2009 [[Paper]](https://aclanthology.org/P09-1113/) 
-* Missing data imputation: focusing on single imputation, ATM 2016 [[Paper]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4716933/) 
-* Imputation of Missing Data Using Machine Learning Techniques, KDD 1996 [[Paper]](https://d1wqtxts1xzle7.cloudfront.net/75598281/KDD96-023-libre.pdf?1638499004=&response-content-disposition=inline%3B+filename%3DImputation_of_Missing_Data_Using_Machine.pdf&Expires=1678667994&Signature=BNTzHGy7~TevRwBAyUu4QCeyNWOC7vH9RcG3bx6zGHjO4mTZa1DAv8GznqsJP25EKorca59PX4R2BYrWiFgTXvtXDwgB7lgvWa0B~W6Z3fjosZLWyMRAjAuhDbFdc-jhI1vlaXHIwzvetDG6ldZZJJCNj6fY0JmkgGcFLP52JR0wy02LjxlPwgAaRyrx1m1-4MvKi-4qS9N~J55ddEchqjcezfREIOA-ab2izlrIH~nzh4UTY7D2uiPmEKQiA85wOfkI0KFjImqGiLiIEo82uA071MjdgkWfPBUrrS60EQT89bDrn-PeCHMXKCE0WnaK0MUm5tOF62h~KLU-D5y5Dg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) 
-* Estimating the number and sizes of fuzzy-duplicate clusters, CIKM 2014 [[Paper]](https://dl.acm.org/doi/10.1145/2661829.2661885)
+* TSFEL: Time series feature extraction library, SoftwareX 2020 [[Paper]](https://www.sciencedirect.com/science/article/pii/S2352711020300017) [[Code]](https://github.com/fraunhoferportugal/tsfel)
 * Alphaclean: Automatic generation of data cleaning pipelines, arXiv 2019 [[Paper]](https://arxiv.org/abs/1904.11827) [[Code]](https://github.com/sjyk/alphaclean)
-* CrowdER: crowdsourcing entity resolution, VLDB 2012 [[Paper]](https://vldb.org/pvldb/vol5/p1483_jiannanwang_vldb2012.pdf)
-* Feature extraction: a survey of the types, techniques, applications, IEEE ICSC 2019 [[Paper]](https://ieeexplore.ieee.org/document/8938371) 
-* TSFEL: Time series feature extraction library, Elsevier 2020 [[Paper]](https://www.sciencedirect.com/science/article/pii/S2352711020300017) [[Code]](https://github.com/fraunhoferportugal/tsfel)
-* Imagenet classification with deep convolutional neural networks, ACM 2017 [[Paper]](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) [[Code]](https://github.com/paniabhisek/AlexNet)
-* Time series classification from scratch with deep neural networks: A strong baseline, IEEE IJCNN 2017 [[Paper]](https://arxiv.org/abs/1611.06455)
-* Data normalization and standardization: a technical report, MLTR 2014 [[Paper]](https://www.researchgate.net/publication/340579135_Data_Normalization_and_Standardization_A_Technical_Report)
-* Introduction to Scikit-learn, Springer 2019 [[Paper]](https://link.springer.com/chapter/10.1007/978-1-4842-4470-8_18) [[Code]](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
+* Introduction to Scikit-learn, Book 2019 [[Paper]](https://link.springer.com/chapter/10.1007/978-1-4842-4470-8_18) [[Code]](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
+* Feature extraction: a survey of the types, techniques, applications, ICSC 2019 [[Paper]](https://ieeexplore.ieee.org/document/8938371) 
 * Feature engineering for predictive modeling using reinforcement learning, AAAI 2018 [[Paper]](https://arxiv.org/abs/1709.07150)
+* Time series classification from scratch with deep neural networks: A strong baseline, IIJCNN 2017 [[Paper]](https://arxiv.org/abs/1611.06455)
+* Missing data imputation: focusing on single imputation, ATM 2016 [[Paper]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4716933/) 
+* Estimating the number and sizes of fuzzy-duplicate clusters, CIKM 2014 [[Paper]](https://dl.acm.org/doi/10.1145/2661829.2661885)
+* Data normalization and standardization: a technical report, MLTR 2014 [[Paper]](https://www.researchgate.net/publication/340579135_Data_Normalization_and_Standardization_A_Technical_Report)
+* CrowdER: crowdsourcing entity resolution, VLDB 2012 [[Paper]](https://vldb.org/pvldb/vol5/p1483_jiannanwang_vldb2012.pdf)
+* Imputation of Missing Data Using Machine Learning Techniques, KDD 1996 [[Paper]](https://d1wqtxts1xzle7.cloudfront.net/75598281/KDD96-023-libre.pdf?1638499004=&response-content-disposition=inline%3B+filename%3DImputation_of_Missing_Data_Using_Machine.pdf&Expires=1678667994&Signature=BNTzHGy7~TevRwBAyUu4QCeyNWOC7vH9RcG3bx6zGHjO4mTZa1DAv8GznqsJP25EKorca59PX4R2BYrWiFgTXvtXDwgB7lgvWa0B~W6Z3fjosZLWyMRAjAuhDbFdc-jhI1vlaXHIwzvetDG6ldZZJJCNj6fY0JmkgGcFLP52JR0wy02LjxlPwgAaRyrx1m1-4MvKi-4qS9N~J55ddEchqjcezfREIOA-ab2izlrIH~nzh4UTY7D2uiPmEKQiA85wOfkI0KFjImqGiLiIEo82uA071MjdgkWfPBUrrS60EQT89bDrn-PeCHMXKCE0WnaK0MUm5tOF62h~KLU-D5y5Dg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) 
 
 ### Data Reduction
-* Intrusion detection model using fusion of chi-square feature selection and multi class SVM, Elsevier 2017 [[Paper]](https://www.researchgate.net/publication/299567135_Intrusion_Detection_Model_Using_fusion_of_Chi-square_feature_selection_and_multi_class_SVM) 
-* Feature selection based on information gain, IJITEE 2013 [[Paper]](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e17df473c25cccd8435839c9b6150ee61bec146a) 
-* Feature selection and analysis on correlated gas sensor data with recursive feature elimination, Elsevier 2015 [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0925400515001872) 
-* Embedded unsupervised feature selection, AAAI 2015 [[Paper]](https://faculty.ist.psu.edu/szw494/publications/EUFS.pdf)
-* Active incremental feature selection using a fuzzy-rough-set-based information entropy, IEEE 2020 [[Paper]](https://ieeexplore.ieee.org/document/8933450)
 * Active feature selection for the mutual information criterion, AAAI 2021 [[Paper]](https://arxiv.org/abs/2012.06979) [[Code]](https://github.com/ShacharSchnapp/ActiveFeatureSelection)
-* Principal component analysis [[Paper]](https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wics.101?casa_token=7GCaA_PLs7YAAAAA:X9iYhUUhXB-3kTi-sQfPjVliujsPep6Iin7Cs9ld8wv3ECz9oeFuPEeaA_AfM0QH-cQkaD3kDoTL5sA) [[Code]](https://github.com/erdogant/pca)
-* Linear discriminant analysis [[Paper]](https://link.springer.com/chapter/10.1007/978-1-4419-9878-1_4) 
-* Autoencoders, arXiv 2020 [[Paper]](https://arxiv.org/abs/2003.05991)
-* Finding representative patterns with ordered projections, Elsevier 2003 [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S003132030200119X)
-* Using random undersampling to alleviate class imbalance on tweet sentiment data, IEEE ICIRI 2015 [[Paper]](Using random undersampling to alleviate class imbalance on tweet sentiment data)
+* Active incremental feature selection using a fuzzy-rough-set-based information entropy, IEEE Transactions on Fuzzy Systems, 2020 [[Paper]](https://ieeexplore.ieee.org/document/8933450)
 * MESA: boost ensemble imbalanced learning with meta-sampler, NeurIPS 2020 [[Paper]](https://arxiv.org/abs/2010.08830) [[Code]](https://github.com/ZhiningLiu1998/mesa)
-* Introduction to k nearest neighbour classification and condensed nearest neighbour data reduction [[Paper]](http://www.math.le.ac.uk/people/ag153/homepage/KNN/OliverKNN_Talk.pdf)
+* Autoencoders, arXiv 2020 [[Paper]](https://arxiv.org/abs/2003.05991)
+* Feature selection: A data perspective, ACM COmputer Surveys, 2017 [[Paper]](https://dl.acm.org/doi/abs/10.1145/3136625) [[Code]](http://featureselection.asu.edu/)
+* Intrusion detection model using fusion of chi-square feature selection and multi class SVM, Journal of King Saud University-Computer and Information Sciences 2017 [[Paper]](https://www.researchgate.net/publication/299567135_Intrusion_Detection_Model_Using_fusion_of_Chi-square_feature_selection_and_multi_class_SVM) 
+* Feature selection and analysis on correlated gas sensor data with recursive feature elimination, Sensors and Actuators B: Chemical 2015 [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0925400515001872) 
+* Embedded unsupervised feature selection, AAAI 2015 [[Paper]](https://faculty.ist.psu.edu/szw494/publications/EUFS.pdf)
+* Using random undersampling to alleviate class imbalance on tweet sentiment data, ICIRI 2015 [[Paper]](https://ieeexplore.ieee.org/document/7300975)
+* Feature selection based on information gain, IJITEE 2013 [[Paper]](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e17df473c25cccd8435839c9b6150ee61bec146a)
+* Linear discriminant analysis, Book 2013 [[Paper]](https://link.springer.com/chapter/10.1007/978-1-4419-9878-1_4) 
+* Introduction to k nearest neighbour classification and condensed nearest neighbour data reduction, 2012 [[Paper]](http://www.math.le.ac.uk/people/ag153/homepage/KNN/OliverKNN_Talk.pdf)
+* Principal component analysis, Wiley Interdisciplinary Reviews 2010 [[Paper]](https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wics.101?casa_token=7GCaA_PLs7YAAAAA:X9iYhUUhXB-3kTi-sQfPjVliujsPep6Iin7Cs9ld8wv3ECz9oeFuPEeaA_AfM0QH-cQkaD3kDoTL5sA) [[Code]](https://github.com/erdogant/pca)
+* Finding representative patterns with ordered projections, Pattern Recognition 2003 [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S003132030200119X)
+
 
 ### Data Augmentation
-* Character-level convolutional networks for text classification, NeurIPS 2015 [[Paper]](https://arxiv.org/abs/1509.01626) [[Code]](https://github.com/zhangxiangxiao/Crepe)
-* Mixup: Beyond empirical risk minimization, ICLR 2018 [[Paper]](https://arxiv.org/abs/1710.09412) [[Code]](https://github.com/facebookresearch/mixup-cifar10)
-* Time series data augmentation for deep learning: A survey, IJCAI 2021 [[Paper]](https://arxiv.org/abs/2002.12478)
-* Mixtext: Linguistically-informed interpolation of hidden space for semi-supervised text classification, ACL 2020 [[Paper]](https://arxiv.org/abs/2004.12239) [[Code]](https://github.com/SALT-NLP/MixText)
-* G-Mixup: Graph Data Augmentation for Graph Classification, ICML 2022 [[Paper]](https://arxiv.org/abs/2202.07179) [[Code]](https://github.com/ahxt/g-mixup)
-* Autoaugment: Learning augmentation policies from data, CVPR 2019 [[Paper]](https://arxiv.org/abs/1805.09501) [[Code]](https://github.com/DeepVoltaire/AutoAugment)
-* Synthetic data augmentation using GAN for improved liver lesion classification, IEEE ISBI 2018 [[Paper]](https://arxiv.org/abs/1801.02385) [[Code]](https://github.com/NicoEssi/GAN_Synthetic_Medical_Image_Augmentation)
-* Text data augmentation for deep learning, JBD 2020 [[Paper]](https://journalofbigdata.springeropen.com/articles/10.1186/s40537-021-00492-0)
-* Unsupervised domain adaptation for robust speech recognition via variational autoencoder-based data augmentation, IEEE ASRU 2017 [[Paper]](https://arxiv.org/abs/1707.06265)
-* Cascaded Diffusion Models for High Fidelity Image Generation, JMLR 2022 [[Paper]](https://arxiv.org/abs/2106.15282)
-* SMOTE: synthetic minority over-sampling technique, JAIR 2002 [[Paper]](https://arxiv.org/abs/1106.1813) [[Code]](https://github.com/analyticalmindsltd/smote_variants)
-* ADASYN: Adaptive synthetic sampling approach for imbalanced learning, IEEE 2008 [[Paper]](https://sci2s.ugr.es/keel/pdf/algorithm/congreso/2008-He-ieee.pdf) [[Code]](https://github.com/stavskal/ADASYN)
 * Towards automated imbalanced learning with deep hierarchical reinforcement learning, CIKM 2022 [[Paper]](https://arxiv.org/abs/2208.12433) [[Code]](https://github.com/daochenzha/autosmote)
+* G-Mixup: Graph Data Augmentation for Graph Classification, ICML 2022 [[Paper]](https://arxiv.org/abs/2202.07179) [[Code]](https://github.com/ahxt/g-mixup)
+* Cascaded Diffusion Models for High Fidelity Image Generation, JMLR 2022 [[Paper]](https://arxiv.org/abs/2106.15282)
+* Time series data augmentation for deep learning: A survey, IJCAI 2021 [[Paper]](https://arxiv.org/abs/2002.12478)
+* Text data augmentation for deep learning, JBD 2020 [[Paper]](https://journalofbigdata.springeropen.com/articles/10.1186/s40537-021-00492-0)
+* Mixtext: Linguistically-informed interpolation of hidden space for semi-supervised text classification, ACL 2020 [[Paper]](https://arxiv.org/abs/2004.12239) [[Code]](https://github.com/SALT-NLP/MixText)
+* Autoaugment: Learning augmentation policies from data, CVPR 2019 [[Paper]](https://arxiv.org/abs/1805.09501) [[Code]](https://github.com/DeepVoltaire/AutoAugment)
+* Mixup: Beyond empirical risk minimization, ICLR 2018 [[Paper]](https://arxiv.org/abs/1710.09412) [[Code]](https://github.com/facebookresearch/mixup-cifar10)
+* Synthetic data augmentation using GAN for improved liver lesion classification, ISBI 2018 [[Paper]](https://arxiv.org/abs/1801.02385) [[Code]](https://github.com/NicoEssi/GAN_Synthetic_Medical_Image_Augmentation)
+* Unsupervised domain adaptation for robust speech recognition via variational autoencoder-based data augmentation, ASRU 2017 [[Paper]](https://arxiv.org/abs/1707.06265)
+* Character-level convolutional networks for text classification, NeurIPS 2015 [[Paper]](https://arxiv.org/abs/1509.01626) [[Code]](https://github.com/zhangxiangxiao/Crepe)
+* ADASYN: Adaptive synthetic sampling approach for imbalanced learning, IJCNN 2008 [[Paper]](https://sci2s.ugr.es/keel/pdf/algorithm/congreso/2008-He-ieee.pdf) [[Code]](https://github.com/stavskal/ADASYN)
+* SMOTE: synthetic minority over-sampling technique, JAIR 2002 [[Paper]](https://arxiv.org/abs/1106.1813) [[Code]](https://github.com/analyticalmindsltd/smote_variants)
 
-### Data Pipeline
-* Efficient and robust automated machine learning, NeurIPS 2015 [[Paper]](https://papers.nips.cc/paper/2015/file/11d0e6287202fced83f79975ec59a3a6-Paper.pdf) [[Code]](https://paperswithcode.com/paper/efficient-and-robust-automated-machine)
-* On evaluation of automl systems, ICML 2020 [[Paper]](https://www.automl.org/wp-content/uploads/2020/07/AutoML_2020_paper_59.pdf)
-* AlphaD3M: Machine learning pipeline synthesis, ICML 2018 [[Paper]](https://arxiv.org/abs/2111.02508) [[Code]]()
-* Tods: An automated time series outlier detection system, AAAI 2021 [[Paper]](https://arxiv.org/abs/2009.09822) [[Code]](https://github.com/datamllab/tods)
-* AutoVideo: An Automated Video Action Recognition System, IJCAI 2022 [[Paper]](https://arxiv.org/abs/2108.04212) [[Code]](https://github.com/datamllab/autovideo)
-* Deepline: Automl tool for pipelines generation using deep reinforcement learning and hierarchical actions filtering, KDD 2020 [[Paper]](https://arxiv.org/abs/1911.00061) 
+### Pipeline Search
 * Towards Personalized Preprocessing Pipeline Search, arXiv 2023 [[Paper]](https://arxiv.org/pdf/2302.14329v1.pdf) 
+* AutoVideo: An Automated Video Action Recognition System, IJCAI 2022 [[Paper]](https://arxiv.org/abs/2108.04212) [[Code]](https://github.com/datamllab/autovideo)
+* Tods: An automated time series outlier detection system, AAAI 2021 [[Paper]](https://arxiv.org/abs/2009.09822) [[Code]](https://github.com/datamllab/tods)
+* Deepline: Automl tool for pipelines generation using deep reinforcement learning and hierarchical actions filtering, KDD 2020 [[Paper]](https://arxiv.org/abs/1911.00061) 
+* On evaluation of automl systems, ICML 2020 [[Paper]](https://www.automl.org/wp-content/uploads/2020/07/AutoML_2020_paper_59.pdf)
+* AlphaD3M: Machine learning pipeline synthesis, ICML 2018 [[Paper]](https://arxiv.org/abs/2111.02508)
+* Efficient and robust automated machine learning, NeurIPS 2015 [[Paper]](https://papers.nips.cc/paper/2015/file/11d0e6287202fced83f79975ec59a3a6-Paper.pdf) [[Code]](https://paperswithcode.com/paper/efficient-and-robust-automated-machine)
 
 ## Inference Data Development
 
