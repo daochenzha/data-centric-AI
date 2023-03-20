@@ -5,8 +5,8 @@ A curated, but incomplete, list of data-centric AI resources. It should be noted
 
 If you want to contribute to this list, please feel free to send a pull request. Also you can contact [daochen.zha@rice.edu](mailto:daochen.zha@rice.edu).
 
-*   Perspective paper (SDM 2023): [Data-centric AI: Perspectives and Challenges](https://arxiv.org/abs/2301.04819)
 *   Survey paper: [Data-centric Artificial Intelligence: A Survey](https://arxiv.org/abs/2303.10158)
+*   Perspective paper (SDM 2023): [Data-centric AI: Perspectives and Challenges](https://arxiv.org/abs/2301.04819)
 
 ## What is Data-centric AI?
 
@@ -34,15 +34,6 @@ Data-centric AI framework consists of three goals: training data development, in
 *   The purpose of data maintenance is to ensure the quality and reliability of data in a dynamic environment.
 
 ## Cite this Work
-Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
-```bibtex
-@inproceedings{zha2023data-centric-perspectives,
-  title={Data-centric AI: Perspectives and Challenges},
-  author={Zha, Daochen and Bhat, Zaid Pervaiz and Lai, Kwei-Herng and Yang, Fan and Hu, Xia},
-  booktitle={SDM},
-  year={2023}
-}
-```
 Zha, Daochen, et al. "Data-centric Artificial Intelligence: A Survey." arXiv preprint arXiv:2303.10158, 2023.
 ```bibtex
 @article{zha2023data-centric-survey,
@@ -50,6 +41,15 @@ Zha, Daochen, et al. "Data-centric Artificial Intelligence: A Survey." arXiv pre
   author={Zha, Daochen and Bhat, Zaid Pervaiz and Lai, Kwei-Herng and Yang, Fan and Jiang, Zhimeng and Zhong, Shaochen and Hu, Xia},
   journal={arXiv preprint arXiv:2303.10158},
   year={2013}
+}
+```
+Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
+```bibtex
+@inproceedings{zha2023data-centric-perspectives,
+  title={Data-centric AI: Perspectives and Challenges},
+  author={Zha, Daochen and Bhat, Zaid Pervaiz and Lai, Kwei-Herng and Yang, Fan and Hu, Xia},
+  booktitle={SDM},
+  year={2023}
 }
 ```
 
