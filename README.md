@@ -167,14 +167,14 @@ Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
 <img width="800" src="./imgs/inference-data-development.png" alt="inference-data-development" />
 
 ### In-distribution Evaluation
-* Propublica's compas data revisited [[Paper]](https://arxiv.org/abs/1906.04711)
-* Stratal slicing, Part II: Real 3-D seismic data [[Paper]](https://library.seg.org/doi/abs/10.1190/1.1444352)
-* Quantitative program slicing: Separating statements by relevance [[Paper]](https://ieeexplore.ieee.org/document/6606695)
-* Slice finder: Automated data slicing for model validation [[Paper]](https://research.google/pubs/pub47966/) [[Code]](https://github.com/yeounoh/slicefinder)
-* Sliceline: Fast, linear-algebra-based slice finding for ml model debugging [[Paper]](https://dl.acm.org/doi/10.1145/3448016.3457323) [[Code]](https://github.com/DataDome/sliceline)
-* No subclass left behind: Fine-grained robustness in coarse-grained classification problems [[Paper]](https://arxiv.org/abs/2011.12945) [[Code]](https://paperswithcode.com/paper/no-subclass-left-behind-fine-grained-1)
-* Multiaccuracy: Black-box post-processing for fairness in classification [[Paper]](https://arxiv.org/abs/1805.12317) [[Code]](https://github.com/amiratag/MultiAccuracyBoost)
-* DACE: Distribution-Aware Counterfactual Explanation by Mixed-Integer Linear Optimization [[Paper]](https://www.ijcai.org/proceedings/2020/0395.pdf)
+* Propublica's compas data revisited, arXiv 2019 [[Paper]](https://arxiv.org/abs/1906.04711)
+* Stratal slicing, Part II: Real 3-D seismic data, Geophysics 1998 [[Paper]](https://library.seg.org/doi/abs/10.1190/1.1444352)
+* Quantitative program slicing: Separating statements by relevance, IEEE ICSE 2013 [[Paper]](https://ieeexplore.ieee.org/document/6606695)
+* Slice finder: Automated data slicing for model validation, IEEE ICDE 2019 [[Paper]](https://research.google/pubs/pub47966/) [[Code]](https://github.com/yeounoh/slicefinder)
+* Sliceline: Fast, linear-algebra-based slice finding for ml model debugging, SIGMOD 2021 [[Paper]](https://dl.acm.org/doi/10.1145/3448016.3457323) [[Code]](https://github.com/DataDome/sliceline)
+* No subclass left behind: Fine-grained robustness in coarse-grained classification problems, NeurIPS 2020 [[Paper]](https://arxiv.org/abs/2011.12945) [[Code]](https://paperswithcode.com/paper/no-subclass-left-behind-fine-grained-1)
+* Multiaccuracy: Black-box post-processing for fairness in classification, AIES 2019 [[Paper]](https://arxiv.org/abs/1805.12317) [[Code]](https://github.com/amiratag/MultiAccuracyBoost)
+* DACE: Distribution-Aware Counterfactual Explanation by Mixed-Integer Linear Optimization, IJCAI 2020 [[Paper]](https://www.ijcai.org/proceedings/2020/0395.pdf)
 * Counterfactual explanations for oblique decision trees: Exact, efficient algorithms [[Paper]](https://arxiv.org/abs/2103.01096)
 * FOCUS: Flexible optimizable counterfactual explanations for tree ensembles [[Paper]](https://arxiv.org/abs/1911.12199) [[Code]](https://github.com/a-lucic/focus)
 * Counterfactual explanations without opening the black box: Automated decisions and the GDPR [[Paper]](https://arxiv.org/abs/1711.00399)
