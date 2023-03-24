@@ -10,7 +10,7 @@ If you want to contribute to this list, please feel free to send a pull request.
 
 ## What is Data-centric AI?
 
-Artificial Intelligence (AI) is making a profound impact in almost every domain. A vital enabler of its great success is the availability of abundant and high-quality data for building machine learning models. Recently, the role of data in AI has been significantly magnified, giving rise to the emerging concept of data-centric AI, which focuses on enhancing the quality and quantity of the data to improve AI systems.
+Data-centric AI is an emerging field that focuses on engineering data to improve AI systems with enhanced data quality and quantity.
 
 ## Data-centric AI vs. Model-centric AI
 
