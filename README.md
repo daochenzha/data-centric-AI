@@ -24,7 +24,9 @@ It is important to note that "data-centric" differs fundamentally from "data-dri
 ## Why Data-centric AI?
 <img width="800" src="./imgs/motivation.png" alt="motivation" />
 
-We give two motivating examples to highlight the central role of data in AI. On the left, large and high-quality training data are the driving force of recent successes of GPT models, while model architectures remain similar, except for more model weights. On the right, when the model becomes sufficiently powerful, we only need to engineer prompts (inference data) to accomplish our objectives, with the model being fixed.
+We give two motivating examples to highlight the central role of data in AI.
+*   On the left, large and high-quality training data are the driving force of recent successes of GPT models, while model architectures remain similar, except for more model weights.
+*   On the right, when the model becomes sufficiently powerful, we only need to engineer prompts (inference data) to accomplish our objectives, with the model being fixed.
 
 ## What is the Data-centric AI Framework?
 <img width="800" src="./imgs/framework.png" alt="framework" />
