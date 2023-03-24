@@ -16,7 +16,9 @@ Data-centric AI is an emerging field that focuses on engineering data to improve
 
 <img width="500" src="./imgs/data-centric.png" alt="data-centric" />
 
-In the conventional model-centric AI lifecycle, researchers and developers primarily focus on identifying more effective models to improve AI performance while keeping the data largely unchanged. However, this model-centric paradigm overlooks the potential quality issues and undesirable flaws of data, such as missing values, incorrect labels, and anomalies. Complementing the existing efforts in model advancement, data-centric AI emphasizes the systematic engineering of data to build AI systems, shifting our focus from model to data. It is important to notethat "data-centric" differs fundamentally from "data-driven", as the latter only emphasizes the use of data to guide AI development, which typically still centers on developing models rather than engineering data.
+In the conventional model-centric AI lifecycle, researchers and developers primarily focus on identifying more effective models to improve AI performance while keeping the data largely unchanged. However, this model-centric paradigm overlooks the potential quality issues and undesirable flaws of data, such as missing values, incorrect labels, and anomalies. Complementing the existing efforts in model advancement, **data-centric AI emphasizes the systematic engineering of data to build AI systems, shifting our focus from model to data**.
+
+It is important to note that "data-centric" differs fundamentally from "data-driven", as the latter only emphasizes the use of data to guide AI development, which typically still centers on developing models rather than engineering data.
 
 
 ## Why Data-centric AI?
