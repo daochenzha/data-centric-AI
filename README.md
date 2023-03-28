@@ -7,6 +7,7 @@ If you want to contribute to this list, please feel free to send a pull request.
 
 *   Survey paper: [Data-centric Artificial Intelligence: A Survey](https://arxiv.org/abs/2303.10158)
 *   Perspective paper (SDM 2023): [Data-centric AI: Perspectives and Challenges](https://arxiv.org/abs/2301.04819)
+*   知乎解读: [GPT模型成功的背后用到了哪些以数据为中心的人工智能（Data-centric AI）技术？](https://zhuanlan.zhihu.com/p/617057227)
 
 ## What is Data-centric AI?
 
