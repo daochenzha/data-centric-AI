@@ -127,6 +127,7 @@ Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
 * Imputation of Missing Data Using Machine Learning Techniques, KDD 1996 [[Paper]](https://d1wqtxts1xzle7.cloudfront.net/75598281/KDD96-023-libre.pdf?1638499004=&response-content-disposition=inline%3B+filename%3DImputation_of_Missing_Data_Using_Machine.pdf&Expires=1678667994&Signature=BNTzHGy7~TevRwBAyUu4QCeyNWOC7vH9RcG3bx6zGHjO4mTZa1DAv8GznqsJP25EKorca59PX4R2BYrWiFgTXvtXDwgB7lgvWa0B~W6Z3fjosZLWyMRAjAuhDbFdc-jhI1vlaXHIwzvetDG6ldZZJJCNj6fY0JmkgGcFLP52JR0wy02LjxlPwgAaRyrx1m1-4MvKi-4qS9N~J55ddEchqjcezfREIOA-ab2izlrIH~nzh4UTY7D2uiPmEKQiA85wOfkI0KFjImqGiLiIEo82uA071MjdgkWfPBUrrS60EQT89bDrn-PeCHMXKCE0WnaK0MUm5tOF62h~KLU-D5y5Dg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) 
 
 ### Data Reduction
+* Active-Learning-as-a-Service: An Efficient MLOps System for Data-Centric AI, NeurIPS 2022 Workshop on Human in the Loop Learning [[paper]](https://arxiv.org/abs/2207.09109) [[code]](https://github.com/MLSysOps/Active-Learning-as-a-Service)
 * Active feature selection for the mutual information criterion, AAAI 2021 [[Paper]](https://arxiv.org/abs/2012.06979) [[Code]](https://github.com/ShacharSchnapp/ActiveFeatureSelection)
 * Active incremental feature selection using a fuzzy-rough-set-based information entropy, IEEE Transactions on Fuzzy Systems, 2020 [[Paper]](https://ieeexplore.ieee.org/document/8933450)
 * MESA: boost ensemble imbalanced learning with meta-sampler, NeurIPS 2020 [[Paper]](https://arxiv.org/abs/2010.08830) [[Code]](https://github.com/ZhiningLiu1998/mesa)
