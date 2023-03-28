@@ -215,6 +215,7 @@ Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
 * Covariate shift adaptation by importance weighted cross validation, JMLR 2007 [[Paper]](https://www.jmlr.org/papers/volume8/sugiyama07a/sugiyama07a.pdf) 
 
 ### Prompt Engineering
+* SPeC: A Soft Prompt-Based Calibration on Mitigating Performance Variability in Clinical Notes Summarization, arXiv 2023 [[Paper]](https://arxiv.org/pdf/2303.13035.pdf)
 * Making Pre-trained Language Models Better Few-shot Learners, arXiv 2021 [[Paper]](https://arxiv.org/pdf/2012.15723v2.pdf) [[Code]](https://github.com/princeton-nlp/LM-BFF)
 * Bartscore: Evaluating generated text as text generation, NeurIPS 2021 [[Paper]](https://arxiv.org/pdf/2106.11520v2.pdf) [[Code]](https://github.com/neulab/BARTScore)
 * BERTese: Learning to Speak to BERT, arXiv 2021 [[Paper]](https://arxiv.org/pdf/2103.05327v2.pdf)
