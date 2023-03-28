@@ -95,6 +95,7 @@ Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
 * Data integration: A theoretical perspective, PODS 2002 [[Paper]](https://www.cs.ubc.ca/~rap/teaching/534a/readings/Lenzerini-pods02.pdf)
 
 ### Data Labeling
+* Active-Learning-as-a-Service: An Efficient MLOps System for Data-Centric AI, NeurIPS 2022 Workshop on Human in the Loop Learning [[paper]](https://arxiv.org/abs/2207.09109) [[code]](https://github.com/MLSysOps/Active-Learning-as-a-Service)
 * Active Ensemble Learning for Knowledge Graph Error Detection, WSDM 2023 [[Paper]](https://www4.comp.polyu.edu.hk/~xiaohuang/docs/Junnan_WSDM2023.pdf)
 * Training language models to follow instructions with human feedback, NeurIPS 2022 [[Paper]](https://arxiv.org/abs/2203.02155)
 * Interactive Weak Supervision: Learning Useful Heuristics for Data Labeling, ICLR 2021 [[Paper]](https://arxiv.org/abs/2012.06046) [[Code]](https://github.com/benbo/interactive-weak-supervision)
