@@ -7,9 +7,11 @@ If you want to contribute to this list, please feel free to send a pull request.
 
 *   Survey paper: [Data-centric Artificial Intelligence: A Survey](https://arxiv.org/abs/2303.10158)
 *   Perspective paper (SDM 2023): [Data-centric AI: Perspectives and Challenges](https://arxiv.org/abs/2301.04819)
-*   Towards Data Science: [What Are the Data-Centric AI Concepts behind GPT Models?](https://towardsdatascience.com/what-are-the-data-centric-ai-concepts-behind-gpt-models-a590071bb727)
-*   知乎解读: [GPT模型成功的背后用到了哪些以数据为中心的人工智能（Data-centric AI）技术？](https://zhuanlan.zhihu.com/p/617057227)
-*   知乎回答: [如何评价Meta/FAIR 最新工作Segment Anything？](https://www.zhihu.com/question/593888697/answer/2972047807)
+*   Blogs: 
+    *   [What Are the Data-Centric AI Concepts behind GPT Models?](https://towardsdatascience.com/what-are-the-data-centric-ai-concepts-behind-gpt-models-a590071bb727)
+*   中文解读: 
+    *   [GPT模型成功的背后用到了哪些以数据为中心的人工智能（Data-centric AI）技术？](https://zhuanlan.zhihu.com/p/617057227)
+    *   [如何评价Meta/FAIR 最新工作Segment Anything？](https://www.zhihu.com/question/593888697/answer/2972047807)
 
 ## What is Data-centric AI?
 
@@ -27,9 +29,11 @@ It is important to note that "data-centric" differs fundamentally from "data-dri
 ## Why Data-centric AI?
 <img width="800" src="./imgs/motivation.png" alt="motivation" />
 
-We give two motivating examples to highlight the central role of data in AI.
+Two motivating examples of GPT models highlight the central role of data in AI.
 *   On the left, large and high-quality training data are the driving force of recent successes of GPT models, while model architectures remain similar, except for more model weights.
 *   On the right, when the model becomes sufficiently powerful, we only need to engineer prompts (inference data) to accomplish our objectives, with the model being fixed.
+
+Another example is [Segment Anything](https://arxiv.org/abs/2304.02643), a foundation model for computer vision. The core of training Segment Anything lies in the large amount of annotated data, containing more than 1 billion masks, which is 400 times larger than existing segmentation datasets.
 
 ## What is the Data-centric AI Framework?
 <img width="800" src="./imgs/framework.png" alt="framework" />
