@@ -12,6 +12,7 @@ If you want to contribute to this list, please feel free to send a pull request.
 *   中文解读: 
     *   [GPT模型成功的背后用到了哪些以数据为中心的人工智能（Data-centric AI）技术？](https://zhuanlan.zhihu.com/p/617057227)
     *   [如何评价Meta/FAIR 最新工作Segment Anything？](https://www.zhihu.com/question/593888697/answer/2972047807)
+    *   [进行data-centric的研究时，需要的算力大吗？](https://www.zhihu.com/question/595473790/answer/2985057859)
 
 ## What is Data-centric AI?
 
