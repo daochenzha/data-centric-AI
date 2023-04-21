@@ -177,6 +177,7 @@ Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
 * On evaluation of automl systems, ICML 2020 [[Paper]](https://www.automl.org/wp-content/uploads/2020/07/AutoML_2020_paper_59.pdf)
 * AlphaD3M: Machine learning pipeline synthesis, ICML 2018 [[Paper]](https://arxiv.org/abs/2111.02508)
 * Efficient and robust automated machine learning, NeurIPS 2015 [[Paper]](https://papers.nips.cc/paper/2015/file/11d0e6287202fced83f79975ec59a3a6-Paper.pdf) [[Code]](https://paperswithcode.com/paper/efficient-and-robust-automated-machine)
+* Tiny3D: A Data-Centric AI based 3D Object Detection Service Production System. [[Code]](https://github.com/TinyDataML/Tiny3D)
 
 ## Inference Data Development
 <img width="800" src="./imgs/inference-data-development.png" alt="inference-data-development" />
