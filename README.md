@@ -53,7 +53,7 @@ Zha, Daochen, et al. "Data-centric Artificial Intelligence: A Survey." arXiv pre
   title={Data-centric Artificial Intelligence: A Survey},
   author={Zha, Daochen and Bhat, Zaid Pervaiz and Lai, Kwei-Herng and Yang, Fan and Jiang, Zhimeng and Zhong, Shaochen and Hu, Xia},
   journal={arXiv preprint arXiv:2303.10158},
-  year={2013}
+  year={2023}
 }
 ```
 Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
