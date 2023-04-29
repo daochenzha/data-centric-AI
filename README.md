@@ -17,7 +17,7 @@ If you want to contribute to this list, please feel free to send a pull request.
 
 Join our [Slack channel](https://join.slack.com/t/data-centric-ai-group/shared_invite/zt-1u93fd7uc-DXz5C~5ejrEwwUXui5tqPA) to discuss, or join the WeChat group below!
 
-<img width="250" src="./imgs/group.png" alt="group" />
+<img width="250" src="./imgs/group.jpeg" alt="group" />
 
 ## What is Data-centric AI?
 
