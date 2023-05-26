@@ -18,7 +18,7 @@ If you want to contribute to this list, please feel free to send a pull request.
 Want to discuss with others who are also interested in data-centric AI? There are three options:
 *   Join our [Slack channel](https://join.slack.com/t/data-centric-ai-group/shared_invite/zt-1u93fd7uc-DXz5C~5ejrEwwUXui5tqPA)
 *   Join our QQ group (183116457). Password: `datacentric`
-*   Join the WeChat group below (if the QR code is expired, please add ``WeChat ID: zdcwhu`` and add a note indicating that you want to join the Data-centric AI group)!
+*   Join the WeChat group below (if the QR code is expired, please add WeChat ID: ``zdcwhu`` and add a note indicating that you want to join the Data-centric AI group)!
 
 <img width="250" src="./imgs/group.jpeg" alt="group" />
 
