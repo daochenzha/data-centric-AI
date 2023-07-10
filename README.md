@@ -15,6 +15,9 @@ If you want to contribute to this list, please feel free to send a pull request.
     *   [GPT模型成功的背后用到了哪些以数据为中心的人工智能（Data-centric AI）技术？](https://zhuanlan.zhihu.com/p/617057227)
     *   [如何评价Meta/FAIR 最新工作Segment Anything？](https://www.zhihu.com/question/593888697/answer/2972047807)
     *   [进行data-centric的研究时，需要的算力大吗？](https://www.zhihu.com/question/595473790/answer/2985057859)
+*   Graph Structure Learning (GSL) is a data-centric AI direction in graph neural networks (GNNs):
+    *   Paper: [OpenGSL: A Comprehensive Benchmark for Graph Structure Learning](https://arxiv.org/abs/2306.10280)
+    *   Code: https://github.com/OpenGSL/OpenGSL
 
 Want to discuss with others who are also interested in data-centric AI? There are three options:
 *   Join our [Slack channel](https://join.slack.com/t/data-centric-ai-group/shared_invite/zt-1u93fd7uc-DXz5C~5ejrEwwUXui5tqPA)
@@ -133,6 +136,7 @@ Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
 * Active learning with statistical models, JAIR 1996 [[Paper]](https://arxiv.org/abs/cs/9603104)
  
 ### Data Preparation
+* OpenGSL: A Comprehensive Benchmark for Graph Structure Learning, arXiv 2023 [[Paper]](https://arxiv.org/abs/2306.10280) [[Code]](https://github.com/OpenGSL/OpenGSL)
 * TSFEL: Time series feature extraction library, SoftwareX 2020 [[Paper]](https://www.sciencedirect.com/science/article/pii/S2352711020300017) [[Code]](https://github.com/fraunhoferportugal/tsfel)
 * Alphaclean: Automatic generation of data cleaning pipelines, arXiv 2019 [[Paper]](https://arxiv.org/abs/1904.11827) [[Code]](https://github.com/sjyk/alphaclean)
 * Introduction to Scikit-learn, Book 2019 [[Paper]](https://link.springer.com/chapter/10.1007/978-1-4842-4470-8_18) [[Code]](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
@@ -295,6 +299,7 @@ Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
 ## Data Benchmark
 
 ### Training Data Development Benchmark
+* OpenGSL: A Comprehensive Benchmark for Graph Structure Learning, arXiv 2023 [[Paper]](https://arxiv.org/abs/2306.10280) [[Code]](https://github.com/OpenGSL/OpenGSL)
 * REIN: A Comprehensive Benchmark Framework for Data Cleaning Methods in ML Pipelines, PVLDB 2023 [[Paper]](https://arxiv.org/abs/2302.04702) [[Code]](https://github.com/mohamedyd/rein-benchmark)
 * Usb: A unified semi-supervised learning benchmark for classification, NeurIPS 2022 [[Paper]](https://arxiv.org/abs/2208.07204) [[Code]](https://github.com/microsoft/Semi-supervised-learning)
 * A feature extraction & selection benchmark for structural health monitoring, Structural Health Monitoring 2022 [[Paper]](https://journals.sagepub.com/doi/full/10.1177/14759217221111141)
