@@ -3,7 +3,7 @@
 
 A curated, but incomplete, list of data-centric AI resources. It should be noted that it is unfeasible to encompass every paper. Thus, we prefer to selectively choose papers that present a range of distinct ideas. We welcome contributions to further enrich and refine this list.
 
-If you want to contribute to this list, please feel free to send a pull request. Also you can contact [daochen.zha@rice.edu](mailto:daochen.zha@rice.edu).
+If you want to contribute to this list, please feel free to send a pull request. Also, you can contact [daochen.zha@rice.edu](mailto:daochen.zha@rice.edu).
 
 *   Survey paper: [Data-centric Artificial Intelligence: A Survey](https://arxiv.org/abs/2303.10158)
 *   Perspective paper (SDM 2023): [Data-centric AI: Perspectives and Challenges](https://arxiv.org/abs/2301.04819)
@@ -18,6 +18,7 @@ If you want to contribute to this list, please feel free to send a pull request.
 *   Graph Structure Learning (GSL) is a data-centric AI direction in graph neural networks (GNNs):
     *   Paper: [OpenGSL: A Comprehensive Benchmark for Graph Structure Learning](https://arxiv.org/abs/2306.10280)
     *   Code: https://github.com/OpenGSL/OpenGSL
+    *   中文解读：[GNN中的Data-centric AI —— 图结构学习（GSL）以及基准库OpenGSL介绍](https://zhuanlan.zhihu.com/p/642738341)
 
 Want to discuss with others who are also interested in data-centric AI? There are three options:
 *   Join our [Slack channel](https://join.slack.com/t/data-centric-ai-group/shared_invite/zt-1u93fd7uc-DXz5C~5ejrEwwUXui5tqPA)
