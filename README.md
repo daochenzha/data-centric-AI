@@ -301,7 +301,7 @@ Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
 
 ### Training Data Development Benchmark
 * OpenGSL: A Comprehensive Benchmark for Graph Structure Learning, arXiv 2023 [[Paper]](https://arxiv.org/abs/2306.10280) [[Code]](https://github.com/OpenGSL/OpenGSL)
-* REIN: A Comprehensive Benchmark Framework for Data Cleaning Methods in ML Pipelines, PVLDB 2023 [[Paper]](https://arxiv.org/abs/2302.04702) [[Code]](https://github.com/mohamedyd/rein-benchmark)
+* REIN: A Comprehensive Benchmark Framework for Data Cleaning Methods in ML Pipelines, EDBT 2023 [[Paper]](https://arxiv.org/abs/2302.04702) [[Code]](https://github.com/mohamedyd/rein-benchmark)
 * Usb: A unified semi-supervised learning benchmark for classification, NeurIPS 2022 [[Paper]](https://arxiv.org/abs/2208.07204) [[Code]](https://github.com/microsoft/Semi-supervised-learning)
 * A feature extraction & selection benchmark for structural health monitoring, Structural Health Monitoring 2022 [[Paper]](https://journals.sagepub.com/doi/full/10.1177/14759217221111141)
 * Data augmentation for deep graph learning: A survey, KDD 2022 [[Paper]](https://arxiv.org/abs/2202.08235)
