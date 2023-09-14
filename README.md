@@ -20,11 +20,13 @@ If you want to contribute to this list, please feel free to send a pull request.
     *   Paper: [OpenGSL: A Comprehensive Benchmark for Graph Structure Learning](https://arxiv.org/abs/2306.10280)
     *   Code: https://github.com/OpenGSL/OpenGSL
     *   中文解读：[GNN中的Data-centric AI —— 图结构学习（GSL）以及基准库OpenGSL介绍](https://zhuanlan.zhihu.com/p/642738341)
+*   Check our latest Knowledge Graphs (KGs) based paper search engine DiscoverPath: https://github.com/ynchuang/DiscoverPath
 
 Want to discuss with others who are also interested in data-centric AI? There are three options:
 *   Join our [Slack channel](https://join.slack.com/t/data-centric-ai-group/shared_invite/zt-1u93fd7uc-DXz5C~5ejrEwwUXui5tqPA)
 *   Join our QQ group (183116457). Password: `datacentric`
 *   Join the WeChat group below (if the QR code is expired, please add WeChat ID: ``zdcwhu`` and add a note indicating that you want to join the Data-centric AI group)!
+
 
 <img width="250" src="./imgs/group.jpeg" alt="group" />
 
