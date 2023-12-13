@@ -140,6 +140,7 @@ Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
 * Active learning with statistical models, JAIR 1996 [[Paper]](https://arxiv.org/abs/cs/9603104)
  
 ### Data Preparation
+* DataFix: Adversarial Learning for Feature Shift Detection and Correction, NeurIPS 2023 [[Paper]](https://openreview.net/forum?id=lBhRTO2uWf) [[Code]](https://github.com/AI-sandbox/DataFix/)
 * OpenGSL: A Comprehensive Benchmark for Graph Structure Learning, arXiv 2023 [[Paper]](https://arxiv.org/abs/2306.10280) [[Code]](https://github.com/OpenGSL/OpenGSL)
 * TSFEL: Time series feature extraction library, SoftwareX 2020 [[Paper]](https://www.sciencedirect.com/science/article/pii/S2352711020300017) [[Code]](https://github.com/fraunhoferportugal/tsfel)
 * Alphaclean: Automatic generation of data cleaning pipelines, arXiv 2019 [[Paper]](https://arxiv.org/abs/1904.11827) [[Code]](https://github.com/sjyk/alphaclean)
