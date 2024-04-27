@@ -197,7 +197,7 @@ Zha, Daochen, et al. "Data-centric AI: Perspectives and Challenges." SDM, 2023.
 * Tiny3D: A Data-Centric AI based 3D Object Detection Service Production System [[Code]](https://github.com/TinyDataML/Tiny3D)
 * Learning From How Humans Correct [[Paper]](https://arxiv.org/abs/2102.00225)
 * The Re-Label Method For Data-Centric Machine Learning [[Paper]](https://arxiv.org/abs/2302.04391)
-* Automatic Label Error Correction [[Paper]](https://www.techrxiv.org/users/679328/articles/731085)
+* Automatic Label Error Correction [[Paper]](https://www.techrxiv.org/users/679328/articles/731085) [[Code]](https://github.com/guotong1988/Automatic-Label-Error-Correction)
 
 ## Inference Data Development
 <img width="800" src="./imgs/inference-data-development.png" alt="inference-data-development" />
