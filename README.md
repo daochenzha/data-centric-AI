@@ -3,6 +3,8 @@
 
 A curated, but incomplete, list of data-centric AI resources. It should be noted that it is unfeasible to encompass every paper. Thus, we prefer to selectively choose papers that present a range of distinct ideas. We welcome contributions to further enrich and refine this list.
 
+:loudspeaker: News: Please check out our open-sourced [Large Time Series Model (LTSM)](https://github.com/daochenzha/ltsm)!
+
 If you want to contribute to this list, please feel free to send a pull request. Also, you can contact [daochen.zha@rice.edu](mailto:daochen.zha@rice.edu).
 
 *   Survey paper: [Data-centric Artificial Intelligence: A Survey](https://arxiv.org/abs/2303.10158)
